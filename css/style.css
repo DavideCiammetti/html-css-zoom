@@ -3,16 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
+
+.header-container{
     background-color: yellowgreen;
     height: 80px;
+    display: flex;
+    justify-content: end;
 }
-main{
+.header-content{
+    background-color: rgb(179, 167, 167);
+    padding: 20px;
+}
+/* header */
+
+/* main */
+.main-container{
     background-color: rgb(237, 41, 31);
     height:calc(100vh - 160px);
     overflow: auto; 
 }
-footer{
+.img-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-img{
+    width: calc((100% / 7) - 20px);
+    border: 1px solid black;
+    margin: 10px 5px;
+}
+/* main */
+
+/* footer */
+.footer-container{
     background-color: rgb(130, 28, 255);
     height: 80px;
 }
