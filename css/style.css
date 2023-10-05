@@ -12,25 +12,35 @@
 }
 .header-content{
     background-color: rgb(179, 167, 167);
-    padding: 20px;
+    /* padding: 20px; */
 }
 /* header */
 
 /* main */
 .main-container{
-    background-color: rgb(237, 41, 31);
     height:calc(100vh - 160px);
     overflow: auto; 
+    background-color: brown;
+   
 }
+.container{
+    background-color: aqua;
+}
+
 .img-content{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    background-color: blue;
 }
-
 .box-img{
-    width: calc((100% / 7) - 20px);
-    border: 1px solid black;
-    margin: 10px 5px;
+    width: calc((100% / 7 )  - 10px);
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.box-img img{
+    display: block;
+    width: 100%;
 }
 /* main */
 
