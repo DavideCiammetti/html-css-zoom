@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: yellowgreen;
+    height: 80px;
+}
+main{
+    background-color: rgb(237, 41, 31);
+    height:calc(100vh - 160px);
+    overflow: auto; 
+}
+footer{
+    background-color: rgb(130, 28, 255);
+    height: 80px;
+}
