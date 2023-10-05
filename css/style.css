@@ -39,3 +39,12 @@
     background-color: rgb(130, 28, 255);
     height: 80px;
 }
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content span{
+    margin-right: 10px;
+}
